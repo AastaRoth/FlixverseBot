@@ -111,17 +111,17 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/AastaRoth/FlixverseBot",
+                text="Site",
+                url="https://www.flixverse.cf",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
-                callback_data="stats_callback",
+                text="Channel",
+                 url="t.me/Flixverse",
             ),
             InlineKeyboardButton(
-                text="Requests", url="http://t.me/Flixverse"
+                text="Requests", url="http://t.me/Flixversechat"
             ),
         ],
         [
@@ -149,17 +149,17 @@ async def help_command(_, message):
                         url=f"t.me/{BOT_USERNAME}?start=help",
                     ),
                     InlineKeyboardButton(
-                        text="Repo 🛠",
-                        url="https://github.com/AastaRoth/FlixverseBot",
+                        text="Site",
+                        url="https://www.flixverse.cf",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="System Stats 💻",
-                        callback_data="stats_callback",
+                        text="Channel",
+                        url="t.me/Flixverse",
                     ),
                     InlineKeyboardButton(
-                        text="Requests", url="t.me/Flixverse"
+                        text="Requests", url="t.me/Flixversechat"
                     ),
                 ],
             ]
